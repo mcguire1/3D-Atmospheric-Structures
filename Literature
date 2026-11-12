@@ -1,0 +1,43 @@
+Here is the consolidated list of **nine papers** we've identified so far, organized by relevance to your proposed 4D atmospheric graph data model. I've verified their bibliographic details and included links for Research Rabbit.
+
+## 1\. Closest to our proposed graph representation
+
+| Paper | Year | Relevance |
+|--------|--------|--------|
+| 1\. [Time-varying Extremum Graphs](https://doi.org/10.1111/cgf.15162) | 2024 | Spatial topology and temporal graph relationships, including splits and merges. |
+| 2\. [Topological Characterization and Uncertainty Visualization of Atmospheric Rivers](https://doi.org/10.1111/cgf.15084) | 2024 | Extracts topological skeletons of atmospheric rivers. |
+| 3\. [Flexible and Probabilistic Topology Tracking With Partial Optimal Transport](https://doi.org/10.1109/TVCG.2025.3561300) | 2025 | Probabilistic tracking graphs and temporal correspondence between topological features. |
+| 4\. [A Taxonomy for Feature Tracking in Time-Varying Piecewise-Linear Scalar Fields](https://doi.org/10.1109/TVCG.2026.3747690) | 2026 | Framework for understanding and combining feature-tracking algorithms. | :chatgpt-content-reference{index="5"}
+
+
+## 2\. Atmospheric structural extraction and tracking
+
+| Paper | Year | Relevance |
+|--------|--------|--------|
+| 5\. [Robust Detection and Visualization of Jet-Stream Core Lines in Atmospheric Flow](https://doi.org/10.1109/TVCG.2017.2743989) | 2018 | Extracts 3D structural centerlines from wind fields. First published online in 2017. |
+| 6\. [A Ridge-based Approach for Extraction and Visualization of 3D Atmospheric Fronts](https://doi.org/10.1109/VIS55277.2024.00043) | 2024 | Extracts 3D atmospheric structures as surfaces rather than skeletons. |
+| 7\. [CoCoMET v1.0: A Unified Open-Source Toolkit for Atmospheric Object Tracking and Analysis](https://doi.org/10.5194/gmd-18-5971-2025) | 2025 | Framework for identifying and tracking 2D/3D atmospheric objects over time. | :chatgpt-content-reference{index="9"}
+
+
+## 3\. Foundational methods and implementation
+
+| Paper | Year | Relevance |
+|--------|--------|--------|
+| 8\. [A Topological Approach to Simplification of Three-Dimensional Scalar Fields](https://escholarship.org/uc/item/6mq482jn) | 2006 | Morse–Smale complexes and simplification of 3D scalar-field topology. |
+| 9\. [A New Python Library to Analyse Skeleton Images Confirms Malaria Parasite Remodelling of the Red Blood Cell Membrane Skeleton](https://doi.org/10.7717/peerj.4312) | 2018 | Introduces Skan for converting skeletons into graphs and analyzing branch geometry. | :chatgpt-content-reference{index="12"}
+
+
+## Suggested reading priority
+
+For our immediate question about existing graph data models, I would concentrate on\:
+
+1. **Das et al. (2024)**\: What does the time-varying extremum graph actually store?
+2. **Lan et al. (2024)**\: How are atmospheric skeletons represented?
+3. **Li et al. (2025)**\: How are temporal relationships represented, particularly uncertain correspondences?
+4. **Hahn et al. (2025)**\: How does atmospheric object tracking represent physical attributes and structural evolution?
+
+The remaining papers provide methodological context.
+
+One additional paper surfaced during verification but hasn't been part of our discussion yet: [Interactive 3D Visual Analysis of Atmospheric Fronts](https://doi.org/10.1109/TVCG.2018.2864806) \(Kern et al., 2018). It may be worth adding to the atmospheric structural extraction collection. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30130207/)
+
+I would start with these ten papers in Research Rabbit rather than expand the collection further until we've examined the closest approaches.
